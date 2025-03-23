@@ -14,7 +14,7 @@ const blogPosts = [
     title: "10 Creative Proposal Ideas That Will Guarantee a Yes",
     excerpt:
       "Planning to pop the question? Here are some creative and memorable proposal ideas that will make your partner say yes!",
-    image: "/placeholder.svg?height=400&width=800&text=Proposal+Ideas",
+    image: "/pro5.jpeg?height=400&width=800&text=Proposal+Ideas",
     date: "March 15, 2023",
     author: "Priya Sharma",
     category: "Proposal Ideas",
@@ -24,7 +24,7 @@ const blogPosts = [
     title: "How to Plan the Perfect Anniversary Surprise",
     excerpt:
       "Anniversary coming up? Learn how to plan a surprise that will make your anniversary truly special and memorable.",
-    image: "/placeholder.svg?height=400&width=800&text=Anniversary+Surprise",
+    image: "/ann4.jpeg?height=400&width=800&text=Anniversary+Surprise",
     date: "February 28, 2023",
     author: "Rahul Patel",
     category: "Anniversary",
@@ -34,7 +34,7 @@ const blogPosts = [
     title: "Budget-Friendly Romantic Gestures That Make a Big Impact",
     excerpt:
       "Romance doesn't have to be expensive. Discover budget-friendly romantic gestures that will sweep your partner off their feet.",
-    image: "/placeholder.svg?height=400&width=800&text=Budget+Romantic+Ideas",
+    image: "/sur2.jpeg?height=400&width=800&text=Budget+Romantic+Ideas",
     date: "January 20, 2023",
     author: "Ananya Desai",
     category: "Budget Ideas",
@@ -44,7 +44,7 @@ const blogPosts = [
     title: "The Ultimate Guide to Room Decoration for Special Occasions",
     excerpt:
       "Transform any space into a magical setting with these room decoration ideas for birthdays, anniversaries, and other special occasions.",
-    image: "/placeholder.svg?height=400&width=800&text=Room+Decoration+Guide",
+    image: "/room2.jpeg?height=400&width=800&text=Room+Decoration+Guide",
     date: "December 12, 2022",
     author: "Vikram Singh",
     category: "Decoration",
@@ -53,7 +53,7 @@ const blogPosts = [
     id: 5,
     title: "5 Unique Candlelight Dinner Settings in Pune",
     excerpt: "Discover the most romantic and unique venues in Pune for an unforgettable candlelight dinner experience.",
-    image: "/placeholder.svg?height=400&width=800&text=Candlelight+Dinner+Pune",
+    image: "/candel.jpeg?height=400&width=800&text=Candlelight+Dinner+Pune",
     date: "November 5, 2022",
     author: "Neha Joshi",
     category: "Pune Venues",
@@ -62,7 +62,7 @@ const blogPosts = [
     id: 6,
     title: "How to Plan a Surprise Birthday Party They'll Never Forget",
     excerpt: "Step-by-step guide to planning a surprise birthday party that will leave the birthday person speechless.",
-    image: "/placeholder.svg?height=400&width=800&text=Surprise+Birthday",
+    image: "/happy.jpeg?height=400&width=800&text=Surprise+Birthday",
     date: "October 18, 2022",
     author: "Arjun Kapoor",
     category: "Birthday Ideas",

@@ -32,7 +32,11 @@ export function TestimonialCard({ name, role, testimonial, image, rating }: Test
         ))}
       </div>
 
-      <p className="italic text-muted-foreground relative z-10">"{testimonial}"</p>
+      <p className="italic text-muted-foreground relative z-10">
+        {'"'}
+        {testimonial}
+        {'"'}
+      </p>
     </div>
   )
 }

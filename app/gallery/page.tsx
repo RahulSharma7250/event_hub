@@ -7,73 +7,73 @@ import { Footer } from "../components/footer"
 const galleryImages = [
   {
     id: 1,
-    src: "/placeholder.svg?height=600&width=800&text=Proposal+Setup",
+    src: "/prop.jpeg?height=600&width=800&text=Proposal+Setup",
     alt: "Proposal Setup",
     category: "Proposal Setup",
   },
   {
     id: 2,
-    src: "/placeholder.svg?height=600&width=800&text=Candlelight+Dinner",
+    src: "/rom.jpeg?height=600&width=800&text=Candlelight+Dinner",
     alt: "Candlelight Dinner",
     category: "Candlelight Dinners",
   },
   {
     id: 3,
-    src: "/placeholder.svg?height=600&width=800&text=Anniversary+Celebration",
+    src: "/anni.jpeg?height=600&width=800&text=Anniversary+Celebration",
     alt: "Anniversary Celebration",
     category: "Anniversary Specials",
   },
   {
     id: 4,
-    src: "/placeholder.svg?height=600&width=800&text=Room+Decoration",
+    src: "/dec5.jpeg?height=600&width=800&text=Room+Decoration",
     alt: "Room Decoration",
     category: "Room Decorations",
   },
   {
     id: 5,
-    src: "/placeholder.svg?height=600&width=800&text=Balloon+Bouquet",
+    src: "/ball.jpeg?height=600&width=800&text=Balloon+Bouquet",
     alt: "Balloon Bouquet",
     category: "Balloon Bouquet",
   },
   {
     id: 6,
-    src: "/placeholder.svg?height=600&width=800&text=Home+Surprise",
+    src: "/roomde.jpeg?height=600&width=800&text=Home+Surprise",
     alt: "Home Surprise",
     category: "Home Surprises",
   },
   {
     id: 7,
-    src: "/placeholder.svg?height=600&width=800&text=Wedding+Setup",
+    src: "/wedding.jpeg?height=600&width=800&text=Wedding+Setup",
     alt: "Wedding Setup",
     category: "Wedding Planner",
   },
   {
     id: 8,
-    src: "/placeholder.svg?height=600&width=800&text=Honeymoon+Trip",
+    src: "/honey.jpeg?height=600&width=800&text=Honeymoon+Trip",
     alt: "Honeymoon Trip",
     category: "Honeymoon Trip",
   },
   {
     id: 9,
-    src: "/placeholder.svg?height=600&width=800&text=Birthday+Surprise",
+    src: "/happy.jpeg?height=600&width=800&text=Birthday+Surprise",
     alt: "Birthday Surprise",
     category: "Home Surprises",
   },
   {
     id: 10,
-    src: "/placeholder.svg?height=600&width=800&text=Proposal+Moment",
+    src: "/roof.jpeg?height=600&width=800&text=Proposal+Moment",
     alt: "Proposal Moment",
     category: "Proposal Setup",
   },
   {
     id: 11,
-    src: "/placeholder.svg?height=600&width=800&text=Anniversary+Dinner",
+    src: "/anni2.jpeg?height=600&width=800&text=Anniversary+Dinner",
     alt: "Anniversary Dinner",
     category: "Anniversary Specials",
   },
   {
     id: 12,
-    src: "/placeholder.svg?height=600&width=800&text=Wedding+Decoration",
+    src: "/wedding.jpeg?height=600&width=800&text=Wedding+Decoration",
     alt: "Wedding Decoration",
     category: "Wedding Planner",
   },
@@ -101,7 +101,7 @@ export default function GalleryPage() {
           <div className="container mx-auto px-4">
             <h1 className="text-4xl font-bold text-center mb-4">Our Gallery</h1>
             <p className="text-muted-foreground text-center max-w-2xl mx-auto">
-              Browse through our collection of surprise moments we've created for our clients.
+              Browse through our collection of surprise moments we&apos;ve created for our clients.
             </p>
           </div>
         </section>

@@ -7,7 +7,9 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">Surprise Planner</h3>
+            <h3 className="font-bold text-lg mb-4">
+              <span className="text-red-600">The</span> Event <span className="text-red-600">Hub</span>
+            </h3>
             <p className="text-muted-foreground mb-4">
               Creating unforgettable moments and memories for all your special occasions in Pune.
             </p>
@@ -105,11 +107,11 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary mr-2" />
-                <span className="text-muted-foreground">+91 98765 43210</span>
+                <span className="text-muted-foreground">+91 84848 61112</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-primary mr-2" />
-                <span className="text-muted-foreground">info@surpriseplanner.com</span>
+                <span className="text-muted-foreground">Pandepranit001@gmail.com</span>
               </li>
             </ul>
           </div>

@@ -54,7 +54,7 @@ export function BookingForm() {
               selected={date}
               onSelect={setDate}
               initialFocus
-              disabled={(date) => date < new Date()}
+              disabled={(date: Date) => date < new Date()} // Fix: Explicitly type the `date` parameter
             />
           </PopoverContent>
         </Popover>
@@ -99,4 +99,3 @@ export function BookingForm() {
     </form>
   )
 }
-

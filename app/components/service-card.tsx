@@ -15,15 +15,15 @@ interface ServiceCardProps {
 
 export function ServiceCard({ title, description, imageSrc, price, slug }: ServiceCardProps) {
   return (
-    <Card className="overflow-hidden border-none shadow-md transition-all hover:shadow-lg service-card-hover">
-      <div className="relative h-48 w-full overflow-hidden">
+    <Card className="overflow-hidden border-none shadow-lg transition-all hover:shadow-xl service-card-hover bg-white">
+      <div className="relative h-64 w-full overflow-hidden">
         <Image
           src={imageSrc || "/placeholder.svg"}
           alt={title}
           fill
           className="object-cover transition-transform duration-500 hover:scale-110"
         />
-        <div className="absolute top-3 right-3 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
+        <div className="absolute top-3 right-3 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-medium">
           {price}
         </div>
       </div>
@@ -32,7 +32,11 @@ export function ServiceCard({ title, description, imageSrc, price, slug }: Servi
         <p className="text-muted-foreground mb-4">{description}</p>
       </CardContent>
       <CardFooter className="px-6 pb-6 pt-0">
-        <Button variant="outline" className="w-full group" asChild>
+        <Button
+          variant="outline"
+          className="w-full group border-red-600 text-red-600 hover:bg-red-600 hover:text-white"
+          asChild
+        >
           <Link href={slug} className="flex items-center justify-center">
             View Details
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

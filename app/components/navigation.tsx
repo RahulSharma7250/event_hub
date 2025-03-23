@@ -65,11 +65,11 @@ export function Navigation() {
   }, [pathname])
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-white shadow-sm">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Link href="/" className="font-bold text-xl">
-            Surprise Planner
+          <Link href="/" className="font-bold text-xl text-black">
+            <span className="text-red-600">The</span> Event <span className="text-red-600">Hub</span>
           </Link>
         </div>
 
@@ -78,8 +78,8 @@ export function Navigation() {
           <Link
             href="/"
             className={cn(
-              "text-sm font-medium hover:text-primary",
-              isActive("/") && pathname === "/" && "text-primary font-semibold",
+              "text-sm font-medium hover:text-red-600",
+              isActive("/") && pathname === "/" && "text-red-600 font-semibold",
             )}
           >
             Home
@@ -90,40 +90,40 @@ export function Navigation() {
             <button
               onClick={toggleAboutDropdown}
               className={cn(
-                "flex items-center gap-1 text-sm font-medium hover:text-primary",
-                (isActive("/about") || aboutDropdownOpen) && "text-primary font-semibold",
+                "flex items-center gap-1 text-sm font-medium hover:text-red-600",
+                (isActive("/about") || aboutDropdownOpen) && "text-red-600 font-semibold",
               )}
             >
               About
               <ChevronDown className={`h-4 w-4 transition-transform ${aboutDropdownOpen ? "rotate-180" : ""}`} />
             </button>
             {aboutDropdownOpen && (
-              <div className="absolute top-full left-0 mt-2 w-48 rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-50">
+              <div className="absolute top-full left-0 mt-2 w-48 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-50">
                 <div className="py-1">
                   <Link
                     href="/about"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setAboutDropdownOpen(false)}
                   >
                     About Overview
                   </Link>
                   <Link
                     href="/about/company"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setAboutDropdownOpen(false)}
                   >
                     About Company
                   </Link>
                   <Link
                     href="/about/team"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setAboutDropdownOpen(false)}
                   >
                     Our Team
                   </Link>
                   <Link
                     href="/about/testimonials"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setAboutDropdownOpen(false)}
                   >
                     Testimonials
@@ -138,75 +138,75 @@ export function Navigation() {
             <button
               onClick={toggleCategoriesDropdown}
               className={cn(
-                "flex items-center gap-1 text-sm font-medium hover:text-primary",
-                (isActive("/categories") || categoriesDropdownOpen) && "text-primary font-semibold",
+                "flex items-center gap-1 text-sm font-medium hover:text-red-600",
+                (isActive("/categories") || categoriesDropdownOpen) && "text-red-600 font-semibold",
               )}
             >
               Categories
               <ChevronDown className={`h-4 w-4 transition-transform ${categoriesDropdownOpen ? "rotate-180" : ""}`} />
             </button>
             {categoriesDropdownOpen && (
-              <div className="absolute top-full left-0 mt-2 w-48 rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-50">
+              <div className="absolute top-full left-0 mt-2 w-48 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-50">
                 <div className="py-1">
                   <Link
                     href="/categories"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     All Categories
                   </Link>
                   <Link
                     href="/categories/balloon-bouquet"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     Balloon Bouquet
                   </Link>
                   <Link
                     href="/categories/candlelight-dinners"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     Candlelight Dinners
                   </Link>
                   <Link
                     href="/categories/anniversary-specials"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     Anniversary Specials
                   </Link>
                   <Link
                     href="/categories/home-surprises"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     Home Surprises
                   </Link>
                   <Link
                     href="/categories/proposal-setup"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     Proposal Setup
                   </Link>
                   <Link
                     href="/categories/room-decorations"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     Room Decorations
                   </Link>
                   <Link
                     href="/categories/honeymoon-trip"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     Honeymoon Trip
                   </Link>
                   <Link
                     href="/categories/wedding-planner"
-                    className="block px-4 py-2 text-sm hover:bg-muted"
+                    className="block px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600"
                     onClick={() => setCategoriesDropdownOpen(false)}
                   >
                     Wedding Planner
@@ -219,8 +219,8 @@ export function Navigation() {
           <Link
             href="/proposal-planning"
             className={cn(
-              "text-sm font-medium hover:text-primary",
-              isActive("/proposal-planning") && "text-primary font-semibold",
+              "text-sm font-medium hover:text-red-600",
+              isActive("/proposal-planning") && "text-red-600 font-semibold",
             )}
           >
             Proposal Planning
@@ -229,8 +229,8 @@ export function Navigation() {
           <Link
             href="/gallery"
             className={cn(
-              "text-sm font-medium hover:text-primary",
-              isActive("/gallery") && "text-primary font-semibold",
+              "text-sm font-medium hover:text-red-600",
+              isActive("/gallery") && "text-red-600 font-semibold",
             )}
           >
             Gallery
@@ -238,7 +238,7 @@ export function Navigation() {
 
           <Link
             href="/blog"
-            className={cn("text-sm font-medium hover:text-primary", isActive("/blog") && "text-primary font-semibold")}
+            className={cn("text-sm font-medium hover:text-red-600", isActive("/blog") && "text-red-600 font-semibold")}
           >
             Blog
           </Link>
@@ -246,8 +246,8 @@ export function Navigation() {
           <Link
             href="/contact"
             className={cn(
-              "text-sm font-medium hover:text-primary",
-              isActive("/contact") && "text-primary font-semibold",
+              "text-sm font-medium hover:text-red-600",
+              isActive("/contact") && "text-red-600 font-semibold",
             )}
           >
             Contact
@@ -255,8 +255,8 @@ export function Navigation() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <Button asChild>
-            <Link href="/contact">Book a Consultation</Link>
+          <Button className="bg-red-600 hover:bg-red-700 text-white" asChild>
+            <Link href="/contact">Book Now</Link>
           </Button>
         </div>
 
@@ -282,7 +282,7 @@ export function Navigation() {
               <ChevronDown className={`h-4 w-4 transition-transform ${aboutDropdownOpen ? "rotate-180" : ""}`} />
             </button>
             {aboutDropdownOpen && (
-              <div className="pl-4 space-y-2 border-l-2">
+              <div className="pl-4 space-y-2 border-l-2 border-red-600">
                 <Link href="/about" className="block py-1 text-sm" onClick={toggleMenu}>
                   About Overview
                 </Link>
@@ -308,7 +308,7 @@ export function Navigation() {
               <ChevronDown className={`h-4 w-4 transition-transform ${categoriesDropdownOpen ? "rotate-180" : ""}`} />
             </button>
             {categoriesDropdownOpen && (
-              <div className="pl-4 space-y-2 border-l-2">
+              <div className="pl-4 space-y-2 border-l-2 border-red-600">
                 <Link href="/categories" className="block py-1 text-sm" onClick={toggleMenu}>
                   All Categories
                 </Link>
@@ -356,9 +356,9 @@ export function Navigation() {
             Contact
           </Link>
 
-          <Button className="w-full" asChild>
+          <Button className="w-full bg-red-600 hover:bg-red-700 text-white" asChild>
             <Link href="/contact" onClick={toggleMenu}>
-              Book a Consultation
+              Book Now
             </Link>
           </Button>
         </div>

@@ -43,7 +43,7 @@ export default function Home() {
             <div className="max-w-3xl">
               <div className="mb-4 inline-block">
                 <span className="px-4 py-1 rounded-full glass text-white text-sm font-medium">
-                  Pune's Premier Surprise Planners
+                  Pune&apos;s Premier Surprise Planners
                 </span>
               </div>
               <h1 className="hero-text-animation text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
@@ -203,20 +203,24 @@ export default function Home() {
         </section>
 
         {/* Featured Services */}
-        <section className="py-20 bg-muted/50 relative overflow-hidden">
+        <section className="py-20 bg-white relative overflow-hidden">
           <div className="container mx-auto px-4">
             <ScrollReveal>
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
                 <div>
-                  <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium mb-2">
+                  <span className="inline-block px-3 py-1 bg-red-600/20 text-red-500 rounded-full text-sm font-medium mb-2">
                     Featured Services
                   </span>
                   <h2 className="text-3xl md:text-4xl font-bold mb-2">Our Popular Services</h2>
                   <p className="text-muted-foreground max-w-2xl">
-                    Discover our most sought-after surprise planning services in Pune
+                    Discover our most sought-after event planning services in Pune
                   </p>
                 </div>
-                <Button variant="outline" className="mt-4 md:mt-0" asChild>
+                <Button
+                  variant="outline"
+                  className="mt-4 md:mt-0 border-red-600 text-red-500 hover:bg-red-600 hover:text-white"
+                  asChild
+                >
                   <Link href="/categories">
                     View All Services <ChevronRight className="ml-2 h-4 w-4" />
                   </Link>
@@ -224,12 +228,12 @@ export default function Home() {
               </div>
             </ScrollReveal>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               <ScrollReveal delay={100}>
                 <ServiceCard
                   title="Proposal Setup"
                   description="Create the perfect moment to pop the question with our custom proposal setups."
-                  imageSrc="/placeholder.svg?height=400&width=600"
+                  imageSrc="/proposal.jpeg?height=400&width=600"
                   price="₹15,000"
                   slug="/categories/proposal-setup"
                 />
@@ -239,7 +243,7 @@ export default function Home() {
                 <ServiceCard
                   title="Candlelight Dinners"
                   description="Romantic candlelight dinners at exclusive venues or in the comfort of your home."
-                  imageSrc="/placeholder.svg?height=400&width=600"
+                  imageSrc="/candel.jpeg?height=400&width=600"
                   price="₹8,000"
                   slug="/categories/candlelight-dinners"
                 />
@@ -249,7 +253,7 @@ export default function Home() {
                 <ServiceCard
                   title="Anniversary Specials"
                   description="Celebrate your special day with customized anniversary surprise packages."
-                  imageSrc="/placeholder.svg?height=400&width=600"
+                  imageSrc="/wedding.jpeg?height=400&width=600"
                   price="₹12,000"
                   slug="/categories/anniversary-specials"
                 />
@@ -271,7 +275,7 @@ export default function Home() {
 
                   <div className="relative rounded-xl overflow-hidden shadow-2xl">
                     <Image
-                      src="/placeholder.svg?height=600&width=800&text=Why+Choose+Us"
+                      src="/about.jpeg?height=600&width=800&text=Why+Choose+Us"
                       alt="Why Choose Us"
                       width={800}
                       height={600}
@@ -569,7 +573,7 @@ export default function Home() {
               <ScrollReveal direction="right" className="flex-1">
                 <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl">
                   <Image
-                    src="/placeholder.svg?height=600&width=800&text=Map+of+Pune"
+                    src="/caffe.jpeg?height=600&width=800&text=Map+of+Pune"
                     alt="Map of Pune"
                     fill
                     className="object-cover"

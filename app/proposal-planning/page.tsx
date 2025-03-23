@@ -28,7 +28,7 @@ export default function ProposalPlanningPage() {
               </h1>
               <p className="text-xl text-white/90 mb-8">
                 Let us help you plan and execute the perfect proposal that reflects your unique love story and
-                guarantees a "Yes!"
+                guarantees a &quot;Yes!&quot;
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" asChild>
@@ -262,7 +262,8 @@ export default function ProposalPlanningPage() {
 
             <div className="text-center mt-12">
               <p className="text-muted-foreground mb-4">
-                Don't see exactly what you're looking for? We specialize in creating custom proposal experiences.
+                Don&apos;t see exactly what you&apos;re looking for? We specialize in creating custom proposal
+                experiences.
               </p>
               <Button variant="outline" asChild>
                 <Link href="/contact">Request Custom Package</Link>
@@ -366,7 +367,7 @@ export default function ProposalPlanningPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Proposal Success Stories</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Read about the magical proposal moments we've helped create for our clients.
+                Read about the magical proposal moments we&apos;ve helped create for our clients.
               </p>
             </div>
 
@@ -382,10 +383,10 @@ export default function ProposalPlanningPage() {
                     />
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold mb-2">Rahul & Priya's Beach Proposal</h3>
+                    <h3 className="text-xl font-bold mb-2">Rahul & Priya&apos;s Beach Proposal</h3>
                     <p className="text-muted-foreground mb-4">
-                      "The team at Surprise Planner created the most magical beach proposal setup. Everything was
-                      perfect, from the flower pathway to the photographer capturing the moment. She said yes!"
+                      &quot;The team at Surprise Planner created the most magical beach proposal setup. Everything was
+                      perfect, from the flower pathway to the photographer capturing the moment. She said yes!&quot;
                     </p>
                     <Button variant="outline" size="sm">
                       Read Full Story
@@ -401,7 +402,7 @@ export default function ProposalPlanningPage() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Plan Your Perfect Proposal?</h2>
             <p className="max-w-2xl mx-auto mb-8 text-primary-foreground/90">
-              Let our expert team help you create a proposal moment that you'll both remember forever.
+              Let our expert team help you create a proposal moment that you&apos;ll both remember forever.
             </p>
             <Button size="lg" variant="secondary" asChild>
               <Link href="/contact">Contact Us Today</Link>

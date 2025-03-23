@@ -34,16 +34,16 @@ export default function AboutCompanyPage() {
                 <h2 className="text-3xl font-bold mb-4">Our Story</h2>
                 <p className="text-muted-foreground mb-4">
                   Surprise Planner was founded in 2018 with a simple mission: to help people create magical moments for
-                  their loved ones. What started as a small team of passionate event planners has grown into Pune's
+                  their loved ones. What started as a small team of passionate event planners has grown into Pune{"'"}s
                   premier surprise planning service.
                 </p>
                 <p className="text-muted-foreground mb-4">
                   Our founder, Ananya Sharma, recognized that while many people wanted to create special moments for
                   their partners, friends, and family, they often lacked the time, resources, or creative vision to
-                  execute their ideas. That's where we come in.
+                  execute their ideas. That{"'"}s where we come in.
                 </p>
                 <p className="text-muted-foreground mb-6">
-                  Over the years, we've helped hundreds of clients across Pune create unforgettable surprises, from
+                  Over the years, we{"'"}ve helped hundreds of clients across Pune create unforgettable surprises, from
                   intimate proposal setups to elaborate anniversary celebrations. Our dedication to personalized service
                   and attention to detail has made us the go-to choice for surprise planning in the region.
                 </p>
@@ -220,7 +220,7 @@ export default function AboutCompanyPage() {
                     <div>
                       <h3 className="font-bold mb-1">Customization</h3>
                       <p className="text-muted-foreground">
-                        We don't believe in one-size-fits-all solutions. Every surprise we plan is tailored to your
+                        We don{"'"}t believe in one-size-fits-all solutions. Every surprise we plan is tailored to your
                         specific needs and preferences.
                       </p>
                     </div>
@@ -246,7 +246,7 @@ export default function AboutCompanyPage() {
                     <div>
                       <h3 className="font-bold mb-1">Attention to Detail</h3>
                       <p className="text-muted-foreground">
-                        We believe that it's the small details that make a big difference. Our meticulous planning
+                        We believe that it{"'"}s the small details that make a big difference. Our meticulous planning
                         ensures nothing is overlooked.
                       </p>
                     </div>

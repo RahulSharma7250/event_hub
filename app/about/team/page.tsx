@@ -87,8 +87,8 @@ export default function TeamPage() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Join Our Team</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
-              We're always looking for creative, passionate individuals to join our team. If you're interested in
-              helping create magical moments for our clients, we'd love to hear from you.
+              We{"'"}re always looking for creative, passionate individuals to join our team. If you{"'"}re interested
+              in helping create magical moments for our clients, we{"'"}d love to hear from you.
             </p>
             <div className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
               <a href="mailto:careers@surpriseplanner.com">Send Your Resume</a>

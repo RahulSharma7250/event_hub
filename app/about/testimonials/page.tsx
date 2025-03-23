@@ -89,8 +89,8 @@ export default function TestimonialsPage() {
           <div className="container mx-auto px-4">
             <h1 className="text-4xl font-bold text-center mb-4">Client Testimonials</h1>
             <p className="text-muted-foreground text-center max-w-2xl mx-auto">
-              Don't just take our word for it. Here's what our clients have to say about their experience with Surprise
-              Planner.
+              Don{"'"}t just take our word for it. Here{"'"}s what our clients have to say about their experience with
+              Surprise Planner.
             </p>
           </div>
         </section>
@@ -124,7 +124,11 @@ export default function TestimonialsPage() {
                       />
                     ))}
                   </div>
-                  <p className="italic text-muted-foreground">"{testimonial.testimonial}"</p>
+                  <p className="italic text-muted-foreground">
+                    {'"'}
+                    {testimonial.testimonial}
+                    {'"'}
+                  </p>
                 </div>
               ))}
             </div>
