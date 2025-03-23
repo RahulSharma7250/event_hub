@@ -41,9 +41,9 @@ function getServiceData(category: string, id: string): ServiceData {
       "Surprise gift arrangement (optional)",
     ],
     images: [
-      "/placeholder.svg?height=600&width=800&text=Candlelight+Dinner+1",
-      "/placeholder.svg?height=600&width=800&text=Candlelight+Dinner+2",
-      "/placeholder.svg?height=600&width=800&text=Candlelight+Dinner+3",
+      "/roomde.jpeg?height=600&width=800&text=Candlelight+Dinner+1",
+      "/roomde.jpeg?height=600&width=800&text=Candlelight+Dinner+2",
+      "/rom.jpeg?height=600&width=800&text=Candlelight+Dinner+3",
     ],
   };
 }
